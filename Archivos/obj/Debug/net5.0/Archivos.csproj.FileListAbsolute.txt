@@ -1,0 +1,12 @@
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\bin\Debug\net5.0\Archivos.deps.json
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\bin\Debug\net5.0\Archivos.dll
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\bin\Debug\net5.0\ref\Archivos.dll
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\bin\Debug\net5.0\Archivos.pdb
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.csproj.AssemblyReference.cache
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.AssemblyInfoInputs.cache
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.AssemblyInfo.cs
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.dll
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\ref\Archivos.dll
+C:\Users\Cristian\Downloads\20211111-SP -Maida Cristian\20211111-SP - Maida Cristian\Archivos\obj\Debug\net5.0\Archivos.pdb
