@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +30,7 @@ namespace Entidades
         }
 
         public short Ubicacion { get => this.ubicacion; set => this.ubicacion = value; }
-        public static short Velocidad { get => Juego.velocidad; set => Juego.velocidad = value; }
+        public short Velocidad { get => Juego.velocidad; set => Juego.velocidad = value; }
 
         [System.Text.Json.Serialization.JsonIgnore]
         public object ControlVisual
@@ -47,10 +47,10 @@ namespace Entidades
 
         public short Avanzar()
         {
-            if (ubicacion == 0)
+            /*if (ubicacion == 0)
             {
                 velocidad = 8;
-            }
+            }*/
             /*else
             {
                 FrmView f = new FrmView();
@@ -73,9 +73,7 @@ namespace Entidades
 
                 System.Threading.Thread.Sleep(60 + Juego.velocidad);
 
-                if (token.IsCancellationRequested)
-                    return;
-            } while (true);
+            } while (!token.IsCancellationRequested);
 
         }
 
@@ -84,3 +82,4 @@ namespace Entidades
 
     
 }
+
