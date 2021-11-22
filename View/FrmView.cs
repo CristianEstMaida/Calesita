@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -46,11 +46,14 @@ namespace View
                 // Asociar Evento
                 p.InformarAvance += AvanceJuegos;
 
-
                 PictureBox pic = (PictureBox)p.ControlVisual;
                 pic.Location = this.CalcularUbicacion(pic.Location, p./*Ubicacion*/Avanzar());
                 this.Controls.Add(pic);
+
+                this.nudVelocidad.Value = this.juegos[0].Velocidad;
             }
+
+            
         }
 
         private void FrmView_FormClosing(object sender, FormClosingEventArgs e)
@@ -90,7 +93,7 @@ namespace View
             if (this.juegos.Count == 0)
             {
                 //numericUpDown1.Value= 8;
-                Juego.Velocidad = 10;
+                
 
                 Juego juego = new Juego(0, this.picHorse1);
                 this.juegos.Add(juego);
@@ -111,6 +114,7 @@ namespace View
             }
             else
             {
+                this.juegos[0].Velocidad = 10;
                 this.juegos[0].ControlVisual = this.picHorse1;
                 this.juegos[1].ControlVisual = this.picHorse2;
                 this.juegos[2].ControlVisual = this.picHorse3;
@@ -179,7 +183,7 @@ namespace View
         {
             //Juego p = new Juego(0,0);
             //p.Avanzar();
-            Juego.Velocidad = (short)nudVelocidad.Value;
+            this.juegos[0].Velocidad = (short)nudVelocidad.Value;
         }
     }
 }
